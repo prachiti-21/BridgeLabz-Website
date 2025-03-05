@@ -1,0 +1,70 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <nav class="outer-col-1"> <ul>
+    <li><a href="https://www.google.com/search?q=bridgelabz&rlz=1C1CHBF_enIN1034IN1034&oq=bridgelab&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDINCAIQLhivARjHARiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDUwOTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&jbr=sep:0">Home</a></li>
+    <li><a href="https://www.bridgelabz.com/#teamSection">About</a></li>
+    <li><a href="https://www.bridgelabz.com/business">Business</a></li>
+    <li><a href="https://www.bridgelabz.com/#contactus">Contact</a></li>
+</ul></nav>
+  <div class="outer-col-2">
+  	<header style="text-align: center;">
+        <h1><strong>BridgeLabz is cool</strong></h1></header>
+    <div class="inner-row">
+      <div class="inner-col">
+    	<article><p>At Bridgelabz, we're a techie community of</p>
+            <ul>
+            <li>Technologies</li>
+            <li>Thinkers</li>
+            <li>Builders</li>
+            </ul>
+            <p>Working together to keep the Tech Employability of Engineers alive and accessible,so Tech Companies worldwide can get contributors and creators for Technology Solutions.<br>
+               We believe this act of human collaboration across an employability platform is essential to individual growth and out collective future.</p></article>
+        </article>
+  		<footer><p>To know more about us, visit <a href="https://www.bridgelabz.com/" target="_blank">BridgeLabz</a> to learn more about our mission i.e <b>Employability to all.</b></p></footer>
+      </div>
+    	<aside><a href="https://www.google.com/search?q=bridgelabz&rlz=1C1CHBF_enIN1034IN1034&oq=bridgelab&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDINCAIQLhivARjHARiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDUwOTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&jbr=sep:0">Voices that matter</a></aside>
+    </div>
+  </div>
+</body>
